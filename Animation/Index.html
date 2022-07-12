@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<title>AnimationTest</title>
+	<link rel="stylesheet" type= "text/css" href="style.css"/>	
+	<script src="script.js" ></script>
+  </head>
+  <body>
+
+	<template id="block">
+        <div class="msg">
+            <p id="top">--- This is a TEST ---</p>
+			<p id="bot">--- If this appears then something went wrong ---</p>
+        </div>
+    </template>
+	
+	<form>
+		msg:  <textarea style="width: 70%; height: 30%;" id="sim" onkeydown="sendStuff(event)"></textarea>	
+	</form>
+	
+	<div id="ChatBox"></div>
+	
+  </body>
+</html>

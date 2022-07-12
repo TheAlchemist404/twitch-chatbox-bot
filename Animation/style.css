@@ -1,0 +1,42 @@
+#ChatBox {
+	height: 100vh;
+    width: 100vw;
+    top:0px;
+    left: 0px;
+    /*border: 1px solid blue;*/
+    overflow: hidden;
+    position: absolute;
+	z-index: -1;
+}
+	  
+.msg #top{
+    color: lime;
+	margin: 0px 0.5em 0px 0px ; /*Workaround to avoid animations ending earlier*/
+}
+
+.msg #bot{
+	position: absolute;
+    color: black;
+	margin: 0.05em 0em 0em -0.05em;
+}
+
+.msg{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    /*border: 1px solid green;*/
+	display: flex;
+	
+	/*Define default font properties*/
+	font-size: 70vh;
+	
+	 /*assign animation to the container*/
+    animation: Scrolling 3s linear;
+	animation-play-state: paused;
+}	
+
+ /*define animation*/
+@keyframes Scrolling {
+    0%   {transform: translateX(100vw);}
+    100% {transform: translateX(-100%);}
+}
