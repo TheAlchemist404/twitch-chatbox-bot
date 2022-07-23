@@ -1,14 +1,8 @@
 # twitch-chatbox-bot
 
-Simple HTML page that can be used to display Twitch chat
+Simple HTML page that can be used to display Twitch chat, now with an altenative animation
 
 ## Usage with OBS Studio
-
-### Simple
-
-1. Add browser source for URL https://steve1337.github.io/twitch-chatbox-bot/ChatboxBot.html#CHANNEL_NAME
-
-### Customized
 
 1. Download ChatboxBot.html
 1. Change the channel name and customize anything else you want to change
