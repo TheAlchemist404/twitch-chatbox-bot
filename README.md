@@ -2,6 +2,8 @@
 
 Simple HTML page that can be used to display Twitch chat, now with an altenative animation
 
+![Twitch chat, now with bullet comments!!](https://github.com/TheAlchemist404/twitch-chatbox-bot/blob/c3516800f43da110f991566b0e8a1cbdf0bc9fd9/docs/Animation%20Showcase.GIF)
+
 ## Usage with OBS Studio
 
 1. Download ChatboxBot.html
